@@ -1,13 +1,26 @@
 <!DOCTYPE html>
 <html>
+
+<head>
+    <style>
+        body{
+            background-color: lightcoral;
+            color: rgb(62, 46, 39);
+            text-align: center;
+        }
+    </style>
+</head>
+
 <body>
 
 <h2>Simple Web Page with HTML and JavaScript</h2>
+<p>Modified by Usha</p>
 
-<p>JavaScript can change HTML attribute values.</p>
-
-<p>In this case JavaScript changes the value of the src (source) attribute of an image.</p>
-
+<p>This website is simple and lets you turn this light bulb on or off.
+    You can change the bulb by clicking the buttons below. The buttons
+    are made interactive using JavaScript, and the page is formated using 
+    HTML.
+</p>
 <button onclick="document.getElementById('myImage').src='pic_bulbon.gif'">Turn on the light</button>
 
 <img id="myImage" src="pic_bulboff.gif" style="width:100px">
